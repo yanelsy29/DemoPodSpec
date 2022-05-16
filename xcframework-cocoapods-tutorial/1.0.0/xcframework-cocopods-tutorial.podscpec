@@ -1,4 +1,4 @@
-<<-EOF
+
 Pod::Spec.new do |s|
     s.name         = "xcframework-cocoapods-tutorial"
     s.version      = "1.0.0"
