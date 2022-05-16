@@ -12,8 +12,8 @@ Pod::Spec.new do |s|
                   LICENSE
                 }
     s.author             = { "Yanelsy Rivera" => "yanelsy2907@gmail.com" }
-    s.source       = { :git => "https://github.com/yanelsy29/xcframework-cocoapods-tutorial.git", :tag => "#{s.version}" }
-    s.vendored_frameworks = "Framework/MyFramework.xcframework"
+    s.source       = { :git => "https://github.com/yanelsy29/xcframework-cocoapods-tutorial.git", :tag => s.version }
+    s.vendored_frameworks = "MyFramework.xcframework"
     s.platform = :ios
     s.swift_version = "4.2"
     s.ios.deployment_target  = '12.0'
