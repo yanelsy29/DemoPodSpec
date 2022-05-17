@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
                 }
     s.author             = { "Yanelsy Rivera" => "yanelsy2907@gmail.com" }
     s.source       = { :git => "https://github.com/yanelsy29/FrameworkDistribution.git", :tag => s.version }
-    s.vendored_frameworks = "MyFramework.xcframework"
+    s.vendored_frameworks = "Framework/MyFramework.xcframework"
     s.platform = :ios
     s.swift_version = "4.2"
     s.ios.deployment_target  = '12.0'
